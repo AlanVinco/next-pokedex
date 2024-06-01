@@ -26,12 +26,12 @@ export default async function page({ params }:{ params: {pokemonId: string}}) {
             
             <div className="w-full md:max-w-3xl rounded-lg shadow-xl bg-card-pokemon">
                 <div className='flex justify-center'>
-                    <div className="pokemon-container shadow-2xl animate__animated animate__tada animate__infinite	infinite">
+                    <div className="w-52 h-52 text-center m-1.5 rounded-full bg-[#F3EEF5] shadow-2xl animate__animated animate__tada animate__infinite	infinite">
                         <Image src={sprites.other.showdown.front_default}
                         width={300}
                          height={300}
                         loading="lazy"
-                        alt="Picture of the author"/>
+                        alt="Pokemon front"/>
                     </div>
                 </div>
                 <div className="p-5 text-black">
@@ -47,7 +47,7 @@ export default async function page({ params }:{ params: {pokemonId: string}}) {
                             width={50}
                             height={50}
                             loading="lazy"
-                            alt="Picture of the author"/>
+                            alt="icono regresar"/>
                         </Link>
                     </div>
                     <p className="mb-3 font-bold">

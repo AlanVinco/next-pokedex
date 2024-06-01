@@ -45,8 +45,8 @@ export default function CardMenu({ stats, moves, abilities }: { stats:any, moves
       </ul>
       {showSection ? 
       <div className="flex flex-col items-center">
-      <div className="chart-container ">
-        <div className="bar-wrapper">
+      <div className="w-full max-w-[800px] shadow-md p-[20px] rounded-lg">
+        <div className="flex items-center mb-[10px]">
           <div
             className="bar"
             style={{ width: `${stats[1].base_stat}vmin` }}
@@ -54,7 +54,7 @@ export default function CardMenu({ stats, moves, abilities }: { stats:any, moves
           ></div>
           <span className="label">{`Ataque (${stats[1].base_stat})`}</span>
         </div>
-        <div className="bar-wrapper">
+        <div className="flex items-center mb-[10px]">
           <div
             className="bar"
             style={{ width: `${stats[2].base_stat}vmin` }}
@@ -66,7 +66,7 @@ export default function CardMenu({ stats, moves, abilities }: { stats:any, moves
     </div>
     :
     <div>
-        <div className="habilities-container">
+        <div className="p-[20px] flex flex-wrap w-4/5 mx-auto justify-center items-center border-[30px] border-solid border-[#f0503c]">
             {moves?.map((elements:any) => (
                 <div key={elements.move.name} className="habilities-box animate__animated animate__pulse animate__infinite	infinite">
                     {`${elements.move.name.charAt(0).toUpperCase()}${elements.move.name.slice(1)}`}

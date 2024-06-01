@@ -14,7 +14,7 @@ export default function NotFound() {
             width={500}
             height={500}
             loading="lazy"
-            alt="Picture of the author"
+            alt="Missigno img"
             />
         </div>
         <p className="text-gray-700 mb-4 font-bold">Ataque:??????</p>

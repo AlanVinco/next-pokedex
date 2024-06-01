@@ -64,6 +64,7 @@ Para la parte de diseño, opté por los colores de los tres tipos primarios de P
 ![tipos primarios](https://cdn.wikimg.net/en/splatoonwiki/images/thumb/0/09/S3_Splatfest_Grass_vs_Fire_vs_Water.png/334px-S3_Splatfest_Grass_vs_Fire_vs_Water.png)
 
 Para la sección de la Pokédex, me basé en el diseño de Pokémon Espada y Escudo que tiene tres colores primarios: blanco, naranja y rojo. Esto crea una atmósfera más amena y cálida, logrando estéticamente un concepto más limpio y ordenado para poder mostrar todo el catálogo de Pokémon. Estos, a su vez, están encerrados en un círculo para destacar la figura del Pokémon y adaptarlo visualmente mejor.
+De igual manera se agrego un botón para buscar los pokémon como usualmente en los juegos se realiza.
 
 ![Pokedex espada y escudo](https://i.ytimg.com/vi/8FDoyCsUt6A/maxresdefault.jpg)
 
