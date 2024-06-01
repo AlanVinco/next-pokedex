@@ -19,7 +19,7 @@ npm run dev
 
 Abrir en [http://localhost:3000](http://localhost:3000) en el navegador para ver los resultados.
 
-## Patron de diseño Singleton
+## Arquitectura de diseño Singleton
 
 El patrón Singleton asegura que una clase tenga una única instancia y proporciona un punto de acceso global a ella. Esto puede ser útil para manejar una instancia única de la conexión a la API o de la caché de datos.
 
