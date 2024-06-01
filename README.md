@@ -65,10 +65,12 @@ Para la parte de diseño, opté por los colores de los tres tipos primarios de P
 
 Para la sección de la Pokédex, me basé en el diseño de Pokémon Espada y Escudo que tiene tres colores primarios: blanco, naranja y rojo. Esto crea una atmósfera más amena y cálida, logrando estéticamente un concepto más limpio y ordenado para poder mostrar todo el catálogo de Pokémon. Estos, a su vez, están encerrados en un círculo para destacar la figura del Pokémon y adaptarlo visualmente mejor.
 De igual manera se agrego un botón para buscar los pokémon como usualmente en los juegos se realiza.
+La búsqueda tiene que ser con el nombre del tipo en ingles, ya que la api asi esta configurada. 
 
 ![Pokedex espada y escudo](https://i.ytimg.com/vi/8FDoyCsUt6A/maxresdefault.jpg)
 
 En la sección del Pokémon, seguí el mismo patrón de colores para mantener la estética previamente mostrada, resaltando los atributos del Pokémon y colocando una animación similar a la que se muestra en los juegos. Los movimientos tienen un estilo arcade, similar a los botones en los juegos de Pokémon para DS.
+Contiene un traductor para que el usuario pueda cambiar el idioma a Español, debido a que la api por defecto viene en ingles.
 
 ![Botones Pokémon](https://lh3.googleusercontent.com/proxy/PCswIFQeOOkIe0GDz_7C2xVgi3lqpOvDB-KyOzRALR67_XlbFVfXNUe15INhTewZaxmQZAB1xIDBO5ZAUBIKLMvKwlZZbHD3vj1SwaHe7pMuKe8Ubg)
 
