@@ -1,11 +1,9 @@
 import Image from 'next/image'
-import Script from 'next/script'
 import GoogleTranslate from '@/app/components/translate'
 import CardMenu from '@/app/components/cardMenu'
 import Link from 'next/link'
 import 'animate.css';
 import { redirect } from 'next/navigation'
-import { PokemonResponse, Other } from '@/app/interfaces/pokemonType'
 
 export default async function page({ params }:{ params: {pokemonId: string}}) {
     

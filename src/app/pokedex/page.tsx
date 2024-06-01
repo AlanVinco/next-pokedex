@@ -1,4 +1,4 @@
-import { Suspense } from "react"
+
 import Search from "../components/search"
 import Table from "../components/table"
 import Image from "next/image"
