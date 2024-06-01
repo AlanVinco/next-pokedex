@@ -61,7 +61,7 @@ jobs:
           #
           # You may remove this line if you want to manage the configuration yourself.
           static_site_generator: next
-      - save_cache:
+      - name: Save cache
             key: dependency-cache-{{ checksum "yarn.lock" }}
             paths:
               - ./node_modules
